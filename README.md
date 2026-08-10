@@ -25,7 +25,7 @@ In remote work and digital learning environments, **smartphone distractions** an
 ## 🧠 System Architecture & Temporal Logic
 
 AuraGuard continuously evaluates the webcam feed and handles state transitions through class filtering and temporal condition tracking:
-
+```bash
 ┌──────────────────────────────┐
               │      Webcam Video Feed       │
               └──────────────┬───────────────┘
@@ -56,7 +56,7 @@ AuraGuard continuously evaluates the webcam feed and handles state transitions t
 ┌─────────────────────────────┐
 │   Dynamic OpenCV HUD Layer  │
 └─────────────────────────────┘
-
+```
 ---
 
 ## 🛠️ Technology Stack
@@ -118,12 +118,14 @@ CONFIDENCE_THRESHOLD = 0.40   # Minimum detection confidence
 ```
 
 ## 📂 Repository Structure
-.
+```bash
 ├── main.py               # Main application loop, YOLO inference & HUD rendering
 ├── requirements.txt      # Project dependencies
 ├── assets/               # Demo videos, screenshots, and diagrams
 └── README.md             # Project documentation
-
+```
 ## 👨‍💻 Author
+
 GitHub: https://github.com/rayhan-khan-dev
+
 LinkedIn: www.linkedin.com/in/rayhan-khan-dev
