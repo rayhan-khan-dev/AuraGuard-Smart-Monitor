@@ -26,7 +26,7 @@ In remote work and digital learning environments, **smartphone distractions** an
 
 AuraGuard continuously evaluates the webcam feed and handles state transitions through class filtering and temporal condition tracking:
 ```bash
-┌──────────────────────────────┐
+              ┌──────────────────────────────┐
               │      Webcam Video Feed       │
               └──────────────┬───────────────┘
                              │
